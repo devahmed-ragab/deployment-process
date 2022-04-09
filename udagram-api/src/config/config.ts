@@ -1,15 +1,12 @@
-import * as dotenv from "dotenv";
-dotenv.config();
+import "dotenv/config";
 
 export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
-  // password: process.env.POSTGRES_PASSWORD,
-  password: process.env.LOCAL_PASSWORD,
+  password: `${process.env.POSTGRES_PASSWORD}`,
   database: process.env.POSTGRES_DB,
   db_port: Number(process.env.DB_PORT),
   port: Number(process.env.PORT),
-  // host: process.env.POSTGRES_HOST,
-  host: process.env.LOCAL_HOST,
+  host: process.env.POSTGRES_HOST,
   dialect: "postgres",
   aws_region: process.env.AWS_REGION,
   aws_profile: process.env.AWS_PROFILE,
