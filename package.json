@@ -5,6 +5,7 @@
         "api:install": "cd udagram-api && npm i",
         "api:build": "cd udagram-api && npm i && npm run build",
         "api:build-start": "cd udagram-api/www && npm start",
+        "api:deploy": "chmod +x ./udagram-api/bin/deploy.sh && ./udagram-api/bin/deploy.sh",
 
         "frontend:install": "cd udagram-frontend && npm i",
         "frontend:lint": "cd udagram-frontend && npm run lint",

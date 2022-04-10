@@ -44,3 +44,4 @@ venv/
 
 /udagram-frontend/node_modules
 /udagram-api/node_modules
+.DS_Store
