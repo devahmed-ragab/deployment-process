@@ -49,12 +49,10 @@ workflows:
   main:
     jobs:
       - deploy-api:
-          context: udagram Api
           filters:
             branches:
               only: master
       - deploy-frontend:
-          context: udagram frontend
           filters:
             branches:
               only: master
