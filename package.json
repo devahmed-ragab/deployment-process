@@ -3,6 +3,7 @@
     "scripts": {
         "api:install": "cd udagram-api && npm i",
         "api:dev": "cd udagram-api && npm run dev",
+        "api:test": "cd udagram-api/www && npm test",
         "api:build": "cd udagram-api && npm run build",
         "api:build-start": "cd udagram-api/www && npm start",
         "api:deploy": "chmod +x ./udagram-api/bin/deploy.sh && ./udagram-api/bin/deploy.sh",
