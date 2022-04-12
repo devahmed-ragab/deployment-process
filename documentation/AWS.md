@@ -1,8 +1,6 @@
-# Udagram AWS Infrastracture
+# [Udagram AWS Infrastracture](https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/aws-aechitecture-diagram.png)
 
-<p align="center">
-    <img src="https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/aws-aechitecture-diagram.png" alt="AWS Infrastracture diagram" width="90%" height="auto">
-</p>
+![aws-aechitecture-diagram](https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/aws-aechitecture-diagram.png?raw=true)
 
 ### RDS Postgress Database
 

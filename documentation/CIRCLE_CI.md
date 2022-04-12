@@ -1,8 +1,6 @@
-# Udagram CircleCI
+# [Udagram CircleCI](https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/CircleCi-digram.png)
 
-<p align="center">
-    <img src="https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/CircleCi-digram.png" alt="AWS Infrastracture diagram" width="90%" height="auto">
-</p>
+![Circleci-digram](https://github.com/devahmed-ragab/deployment-process/tree/master/screenshots/CircleCi-digram.png?raw=true)
 
 Developers commit and push code to the remote GitHub repository.
 CricleCi Listen to the master branch Any change in it will trigger webhooks.
